@@ -1,0 +1,268 @@
+html{
+    width: 100%;
+    background-image: url('../images/blueTex2.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+    font-family: 'Fauna One', serif;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#name{
+	float: left;
+	margin-top:15%;
+	width:31%;
+	margin-left: 5%;
+	border-right:1px solid rgba(0,0,0,.7);
+	height: 500px;
+	font-size: 60px;
+}
+
+#tag{
+	font-size: 20px;
+}
+
+#haq{
+	color: rgba(238, 154, 0, 1);
+}
+
+#first{
+	float: left;
+	width: 10%;
+}
+#last{
+	float: left;
+	width: 20%;
+}
+#j{
+	color: rgba(238, 154, 0, 1);
+}
+
+.nav{
+    float: left;   
+    margin-top: 15%; 
+    height: 500px;    
+    width: 15%;  
+    border-right: 1px solid rgba(0,0,0,.7);    
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: -40px;
+    font-weight: bold;
+}
+
+.nav li{
+    padding: 10px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    text-align: right;
+    border-bottom: 1px groove rgba(0,0,0,.1);
+}
+
+.nav li:hover{
+    color: rgba(238, 154, 0, .9);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.selected{  
+    color: rgba(238, 154, 0, .9);
+}
+
+.unselected{
+    color: #000;  
+}
+
+#whatsInside{
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    margin-top: 15%;
+    width: 45%;
+/*    max-height: 500px;
+    overflow: scroll;
+*/    
+}
+
+
+#abtContent{
+    float: left;
+    margin-left: 20px;
+}
+
+#meContainer{
+	margin: auto;
+	text-align: left;
+}
+
+#mePic{
+	width: 100px;
+	height: 100px;
+	border: 5px solid rgba(238, 154, 0, .7);	
+}
+
+.big{
+    font-size: 25px;
+    text-align: left;
+}
+
+.small{
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.stuffWrap{
+    border-bottom: solid 1px rgba(0,0,0,.1);
+    height: 111px;
+    width: 100%;
+}
+
+.stuffImg{
+    float: left;
+    margin-left: 15px;
+    width: 70px;
+    height: 70px;
+    border: 5px solid rgba(0, 0, 0, .7);
+    padding: 10px;
+    -moz-box-shadow:    1px 1px 5px 2px rgba(0,0,0,.3);
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(0,0,0,.3);
+    box-shadow:         1px 3px 5px 2px rgba(0,0,0,.3); 
+    z-index: 1;       
+}
+
+.stuffImg:hover{
+	border-color:rgba(238, 154, 0, .9)
+}
+
+#dev{
+	font-size: 9px;
+}
+
+#stamp{
+    background-color: #cc0000;
+    line-height: 50px; 
+}
+
+#stampImg{
+    max-height: 70px;
+    max-width: 70px;
+    vertical-align: middle;
+}
+
+#cinta{
+    background-color: #FFFFFF;
+    line-height: 50px; 
+}
+
+#cintaImg{
+    max-height: 70px;
+    max-width: 70px;
+    vertical-align: middle;
+}
+
+.desc{
+    width: 70%;
+    float: left;
+    text-align: left;
+    margin-top: -20px;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.descBig{
+    font-size: 15px;
+}
+
+.descSmall{
+    font-size: 13px;
+}
+
+.desc a{
+    text-decoration: none;
+    color: #000;
+}
+
+.desc a:hover{
+    text-decoration: underline;
+}
+
+
+
+#con{
+	margin-left: -40px;
+}
+
+#con li{
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	height: 60px;
+}
+
+.un:hover{
+	text-decoration: underline;
+}
+
+.un{
+	color: #000;
+}
+
+.text{
+	float: left;
+	width: 60%;
+}
+
+.text a{
+    text-align:right;
+    margin: auto; 
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.text a:hover{
+    text-decoration: underline;
+}
+
+.wrapper {
+    float: left;
+}
+
+.lab{
+	float: left;
+	text-align: left;
+	width: 20%;
+	margin-left: 5%;
+	margin-right: 15%;
+	font-size: 30px;
+}
+
+#fbDiv{
+	padding-top: 5px;
+}
+
+#twitDiv{
+    text-align: center;
+    margin-left: 60px;
+    padding-top: 5px;
+}
+
+#linDiv{
+	padding-top: 5px;
+}
+
+#emlA{
+    line-height: 35px;
+}
+
+.foot{
+	position: absolute;
+	bottom: 0;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    vertical-align: text-bottom;
+}

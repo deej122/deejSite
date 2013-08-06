@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>deej</title>   
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">    
+    <link rel="stylesheet" type="text/css" href="stylesheets/deej2.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/size2.css">
+    <link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="scripts/deej.js"></script>    
+  </head>
+  
+<body style="margin:0;">
+<!-- FB and Twitter Script-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--********************************************************************-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+<!--End FB and Twitter Script-->
+
+<div id="name">
+    <p>
+        d<span id="j">j</span>agannathan
+    </p>
+    <p id="tag">
+        <span id="bil">build.</span>
+        <span id="haq">hack.</span>
+        <span id="inn">innovate.</span>
+    </p>    
+</div>
+
+
+<div id="all">
+
+  <ul class="nav">
+    <li id="abt" class="selected" onclick="showAbt();">Me</li>
+    <li id="stuff" class="unselected" onclick="showStuff();">Stuff I've Done</li>
+    <li id="contact" class="unselected" onclick="showContact();">Let's Chat</li>
+  </ul>
+
+  <div id="whatsInside">
+
+    <div id="abtContent">
+      <div id="meContainer">
+        <img id="mePic" src="images/me.jpg" />
+      </div>
+      <p id="um" class="big">
+        I'm a student about to enter my Sophomore year at the University of Michigan.
+      </p>
+      <p id="ed" class="small">
+        I'm extremely passionate about revolutionizing the education game and am constantly working to do just that.
+      </p>
+      <p id="ms" class="small">
+        One of my goals is to make the creation and discovery of new music easier and more accessible.
+      </p> 
+      <p id="si" class="small">
+        I believe social interaction is somehow the solution to it all.
+      </p>        
+    </div>
+
+    <div id="stuffContent" style="display:none;">
+      <div class="stuffWrap">   
+        <a href="/"> 
+          <div class="stuffImg" id="cinta">
+            <img src="images/cinta.png" id="cintaImg"/> 
+          </div>
+        </a>  
+        <div class="desc">
+            <h3>
+                <a href="/" >
+                    Project: Cinta
+                </a>   
+                <span id="dev">(still in development. alpha testing begins in the fall.)</span>
+            </h3>   
+          <p class="descBig">
+            Founded Project: Cinta
+          </p>
+          <p class="descSmall">
+            Encouraging high school students to take initiative and work together to solve problems that they are passionate about.
+          </p>
+        </div>
+      </div>
+
+      <br>  
+
+      <div class="stuffWrap">   
+        <a href="http://stamp.fm" target="_blank"> 
+          <div class="stuffImg" id="stamp">
+            <img src="images/stamp.jpg" id="stampImg"/> 
+          </div>
+        </a>  
+        <div class="desc">
+          <a href="http://stamp.fm" target="_blank">
+            <h3>Stamp.fm</h3>
+          </a>  
+          <p class="descBig">
+            Built Stamp.fm: The Online Music Tournament.
+          </p>
+          <p class="descSmall">
+            Discover the best new artists. All you have to do is vote.
+          </p>
+        </div>
+      </div>
+
+      <br>
+
+      <p class="descSmall">
+        I'm always working on something, so check back soon for updates!
+      </p>                
+    </div>
+
+    <div id="contactContent" style="display:none;">
+        <ul id="con">
+
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100001192749167" target="_blank" class="un">
+                    <span class="lab">
+                        facebook
+                    </span>
+                </a>  
+
+                <div class="text">
+                    <a href="https://www.facebook.com/profile.php?id=100001192749167" target="_blank">
+                        DJ Jagannathan
+                    </a>
+
+                    <br>
+
+                    <div id="fbDiv">
+                        <div class="fb-follow" data-href="https://www.facebook.com/profile.php?id=100001192749167" data-width="100" data-layout="button_count" data-show-faces="false"></div>
+                    </div>  
+                </div>
+            </li>
+    
+        <br><br>
+
+            <li> 
+                <a href="https://twitter.com/deej122" target="_blank" class="un"> 
+                    <span class="lab">
+                        twitter
+                    </span>  
+                </a>
+
+                <div class="text">
+                    <a href="https://twitter.com/deej122" target="_blank">
+                        @deej122
+                    </a>
+
+                    <br>
+
+                    <div id="twitDiv">
+                        <a href="https://twitter.com/deej122" class="twitter-follow-button" data-show-count="true">
+                            Follow @deej122
+                        </a> 
+                    </div>
+                </div>
+            </li>
+    
+        <br><br>
+
+            <li>  
+                <a href="http://www.linkedin.com/profile/view?id=212412219" target="_blank" class="un">
+                    <span class="lab">
+                        linkedin
+                    </span> 
+                </a> 
+
+                <div class="text">
+                    <a href="http://www.linkedin.com/profile/view?id=212412219" target="_blank" id="linA">
+                        DJ Jagannathan
+                    </a>
+
+                    <br>
+
+                    <div id="linDiv">
+                        <script src="//platform.linkedin.com/in.js" type="text/javascript">
+                            lang: en_US
+                        </script>
+                        <script type="IN/Share" data-counter="right"></script>   
+                    </div>       
+                </div>
+            </li>
+
+        <br><br>
+
+            <li>  
+                <a href="mailto:desjag@gmail.com" target="_top" class="un">
+                    <span class="lab">
+                        email
+                    </span>   
+                </a>       
+
+                <div class="text">
+                    <a href="mailto:desjag@gmail.com" target="_top" id="emlA">
+                    desjag (at) gmail (dot)com</a>
+                </div>
+
+            </li>  
+
+    </div>
+
+
+  </div>
+
+
+</div>
+
+
+<div class="foot">
+  <p>
+    Copyright &copy; 2013 Desikan Jagannathan. All rights reserved.
+  </p> 
+</div>
+</body>
+</html>

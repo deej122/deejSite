@@ -1,0 +1,490 @@
+@media only screen and (min-width: 1280px) and (max-width:1366px){
+    
+    .nav{
+        height: 500px;
+    }
+
+.stuffWrap{
+    height: 140px;
+}
+
+
+#name{
+    font-size: 50px;
+}
+
+#twitDiv{
+    margin-left: 60px;
+}
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+    
+    .nav{
+        height: 400px;
+    }
+
+#name{
+    font-size: 40px;
+    height: 400px;
+}
+
+#mePic{
+    width: 80px;
+    height: 80px;
+    margin-bottom: -20px;
+    border: 5px solid rgba(238, 154, 0, .7);    
+}
+
+.stuffWrap{
+    height: 136px;
+}
+
+.descSmall{
+    margin-top: -10px;
+}
+
+.text{
+    margin-top: -5px;
+}
+
+#con li{
+    height: 39px;
+}
+
+#twitDiv{
+    margin-left:60px;
+}
+
+#emlA{
+    line-height: 39px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 720px) and (max-width: 960px) {
+    
+    body {
+        min-width: 720px;
+    }
+
+#name{
+    font-size: 30px;
+    height: 400px;
+}
+
+#tag{
+    font-size: 15px;
+}
+
+#mePic{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: -10px;
+    border: 5px solid rgba(238, 154, 0, .7);    
+}    
+    
+    .nav{
+        height: 400px;
+    }
+
+    .nav li{
+        font-size: 15px;
+    }
+
+#abtContent{
+    float: left;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.big{
+    font-size: 15px;
+    text-align: left;
+}
+
+.small{
+    font-size: 10px;
+    text-align: left;
+}
+
+.stuffWrap{
+    height: 118px;
+}
+
+.stuffImg{
+    float: left;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border: 5px solid rgba(0, 0, 0, .7);
+    padding: 10px;
+    -moz-box-shadow:    1px 1px 5px 2px rgba(0,0,0,.3);
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(0,0,0,.3);
+    box-shadow:         1px 3px 5px 2px rgba(0,0,0,.3); 
+    z-index: 1;       
+}
+
+#stamp{
+    background-color: #cc0000;
+    line-height: 20px; 
+}
+
+#stampImg{
+    max-height: 40px;
+    max-width: 40px;
+    vertical-align: middle;
+}
+
+#cinta{
+    background-color: #FFFFFF;
+    line-height: 20px; 
+}
+
+#cintaImg{
+    max-height: 40px;
+    max-width: 40px;
+    vertical-align: middle;
+}
+
+.desc{
+    width: 70%;
+    float: left;
+    text-align: left;
+    margin-top: -20px;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.desc h3{
+    font-size: 14px;
+}
+
+.descBig{
+    font-size: 12px;
+}
+
+.descSmall{
+    font-size: 10px;
+}
+
+.text{
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+#con li{
+    height: 30.5px;
+}
+
+.lab{
+    float: left;
+    text-align: left;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+#twitDiv{
+    margin-left:60px;
+}
+
+#emlA{
+    line-height: 30.5px;
+}
+
+.foot{
+    font-size: 8px;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 719px) {
+
+    body {
+        min-width:480px;
+    }
+
+    #name{
+    margin: auto;
+    margin-top: 30px;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    border-right:none;
+}
+
+#tag{
+    margin-top: -30px;
+    font-size: 10px;
+}
+
+#meContainer{
+    margin-left: 37%;
+}
+
+#mePic{
+    width: 40px;
+    height: 40px;
+    border: 5px solid rgba(238, 154, 0, .7);    
+}     
+    
+      .nav{
+        width: 100%;
+        border: none;
+        height: 20px;
+        text-align: center;
+    }
+
+    .nav li{
+        display: inline-block;
+        font-size: 12px;
+    }
+
+    #whatsInside{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+#abtContent{
+    float: left;
+    margin-left: 60px;
+    width: 90%;
+    margin-top: -20px;
+}
+
+.big{
+    font-size: 15px;
+    text-align: left;
+}
+
+.small{
+    font-size: 10px;
+    text-align: left;
+}
+
+.stuffWrap{
+    height: 90px;
+    width: 90%;
+    margin-left: 40px;    
+}
+
+.stuffImg{
+    display: none;       
+}
+
+.desc{
+    width: 90%;
+    float: left;
+    text-align: left;
+    margin-top: -20px;
+    vertical-align: top;
+}
+
+.desc h3{
+    font-size: 14px;
+}
+
+.descBig{
+    font-size: 12px;
+}
+
+.descSmall{
+    font-size: 10px;
+}
+
+
+#con{
+    width: 70%;
+    float: left;
+    margin-left: 40px;
+}
+
+.text{
+    font-size: 8px;
+}
+
+#con li{
+    height: 24.5px;
+}
+
+.lab{
+    float: left;
+    text-align: left;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 15%;
+    font-size: 15px;
+}
+
+#fbDiv{
+    display: none;
+}
+
+#twitDiv{
+    display: none;
+}
+
+#linDiv{
+    display: none;
+}
+
+#emlA{
+    line-height: 24.5px;
+}
+
+.foot{
+    font-size: 8px;
+}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+    body {
+        min-width:240px;
+    }
+
+    #name{
+    margin: auto;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    border-right:none;
+}
+
+#tag{
+    margin-top: -30px;
+    font-size: 8px;
+}
+
+#meContainer{
+    margin-left: 37%;
+}
+
+#mePic{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: 40px;
+    height: 40px;
+    border: 5px solid rgba(238, 154, 0, .7);    
+}    
+    
+      .nav{
+        width: 100%;
+        border: none;
+        height: 20px;
+        text-align: center;
+    }
+
+    .nav li{
+        display: inline-block;
+        font-size: 12px;
+    }
+
+    #whatsInside{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+#abtContent{
+    float: left;
+    width: 90%;
+    margin-top: -20px;
+}
+
+.big{
+    font-size: 15px;
+    text-align: left;
+}
+
+.small{
+    font-size: 10px;
+    text-align: left;
+}
+
+.stuffWrap{
+    height: 90px;
+    width: 90%;
+    margin-left: 5px;
+}
+
+.stuffImg{
+    display: none;       
+}
+
+.desc{
+    width: 90%;
+    float: left;
+    text-align: left;
+    margin-top: -20px;
+    vertical-align: top;
+}
+
+.desc h3{
+    font-size: 14px;
+}
+
+.descBig{
+    font-size: 12px;
+}
+
+.descSmall{
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+
+#con{
+    width: 70%;
+    float: left;
+    margin-left: 1px;
+}
+
+.text{
+    font-size: 8px;
+}
+
+#con li{
+    height: 24.5px;
+}
+
+.lab{
+    float: left;
+    text-align: left;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 15%;
+    font-size: 15px;
+}
+
+#fbDiv{
+    display: none;
+}
+
+#twitDiv{
+    display: none;
+}
+
+#linDiv{
+    display: none;
+}
+
+#emlA{
+    line-height: 24.5px;
+}
+
+.foot{
+    font-size: 4px;
+}
+}
