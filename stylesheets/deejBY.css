@@ -16,11 +16,14 @@ body{
 #name{
 	float: left;
 	width: 100%;
+  /*
 	margin-top: 2%;
+  */
 	padding-bottom: 2%;
 	font-size: 72px;
-	color: rgba(0,0,0,.5);
-	border-bottom: solid 5px rgba(215,60,60, .7);
+	color: rgba(255, 230, 0, 1);
+	border-bottom: solid 5px rgba(255, 230, 0, .7);
+  background-color: black;
 }
 
 #j{
@@ -28,6 +31,7 @@ body{
 }
 
 #nameText{
+  margin-top:-5%;
 	float: left;
 	margin-left: 5%;
 }
@@ -35,28 +39,28 @@ body{
 #resume{
 	float: right;
 	margin-right: 5%;
-	margin-top: 2%;
+	margin-top: -3%;
 	text-decoration: none;
 	padding: 5px;
 	font-size: 20px;
-	border: 1px solid rgba(235, 60, 60, 1);
-	color: rgba(235, 60, 60, 1);
+	border: 1px solid rgba(255, 230, 0, 1);
+	color: rgba(255, 230, 0, 1);
 }
 
 #resume:hover{
-	background-color: rgba(235, 60, 60, 1);
-	color: #FFFFFF;
+	background-color: rgba(255, 230, 0, 1);
+	color: #000;
 }
 
-#resume:active{
-	background-color: rgba(235, 60, 60, 1);
-	color: #FFFFFF;
-	border-color: rgba(255, 255, 255, 1);
+/*#resume:active{
+	background-color: rgba(255, 230, 0, 1);
+	color: #000;
+	border-color: rgba(255, 230, 0, 1);
    -moz-box-shadow:    inset 0 0 3px #000000;
    -webkit-box-shadow: inset 0 0 3px #000000;
    box-shadow:         inset 0 0 3px #000000;
 }
-
+*/
 .label{
 	float: left;
 	padding-right: 50px;
@@ -186,3 +190,95 @@ body{
 }
 
 
+/*THEMES*/
+
+#themeBoxes{
+  margin-top: 2%;
+	float: right;
+	margin-right: 1%;
+}
+
+.theme{
+	display: block;
+	height: 15px;
+	width: 15px;
+  margin-bottom: 1px;
+  padding-right: 2px;
+}
+
+.off{
+  height: 15px;
+  width: 15px;
+  transition: all .1s ease-in-out;
+}
+
+.theme:hover{
+  transition: all .15s ease-in-out;
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+}
+
+.theme:hover .off{
+  transition: all .25s ease-in-out;
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+}
+
+#byTheme{
+	border-right: solid 2px rgba(255, 230, 0, 1);
+}
+
+/*
+.default{
+}
+
+.black_yellow{
+	border-left: solid 2px yellow;
+}
+
+.red_blue{
+	border-left: solid 2px rgba(245, 40, 40, 1);
+}
+
+.yellowText{
+	color: yellow;
+}
+
+.yellowBG{
+	background-color: yellow;
+}
+
+.blackText{
+	color: black;
+}
+
+.blackBG{
+	background-color: black;
+}
+
+.redText{
+	color: rgba(245, 40, 40, 1);
+}
+
+.redBG{
+	background-color: rgba(245, 40, 40, 1);
+}
+
+.blueText{
+	color: rgba(28, 162, 235, 1);
+}
+
+.blueBG{
+	background-color: rgba(28, 162, 235, 1);
+}
+
+.whiteText{
+	color: white;
+}
+
+.whiteBG{
+	background-color: white;
+}
+*/
